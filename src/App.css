@@ -1,0 +1,21 @@
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.expanded-div-container{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.demostrartion-heading{
+  background-color: var(--Background-color);
+  color: white;
+  padding: 4px;
+}

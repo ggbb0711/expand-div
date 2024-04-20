@@ -1,0 +1,27 @@
+.expand-div{
+    cursor: pointer;
+    background-color: var(--Background-color);
+    width: 100%;
+    color: white;
+    padding: 8px;
+}
+
+.expand-div-header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.expand-div-header{
+    font-size: 18px;
+}
+
+.expand-msg{
+    display: none;
+    text-align: center;
+}
+
+
+.expand-div.active>.expand-msg{
+    display: block;
+}
